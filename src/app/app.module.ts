@@ -6,11 +6,13 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AddDebtsComponent } from './add-debts/add-debts.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddDebtsComponent
+    AddDebtsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
