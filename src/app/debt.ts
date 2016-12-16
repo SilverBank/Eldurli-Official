@@ -1,6 +1,6 @@
 // Definition of Debt class
 
-export class Debts {
+export class Debt {
     name: string;
     amount: number;
     APR: number; // expressed in percentage
